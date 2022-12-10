@@ -1,0 +1,10 @@
+.IntroFrame {
+  text-align: center;
+  width: 40%;
+  height: 174.9px;
+  background-image: url("./images/intro-frame.svg");
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+}
