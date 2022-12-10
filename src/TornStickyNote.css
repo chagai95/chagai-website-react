@@ -1,0 +1,6 @@
+.TornStickyNote {
+  width: 10%;
+  height: 85px;
+  background-image: url("./images/torn-sticky-note.svg");
+  background-repeat: no-repeat;
+}
