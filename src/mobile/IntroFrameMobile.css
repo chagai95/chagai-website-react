@@ -1,0 +1,16 @@
+.IntroFrameMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14%
+}
+
+#intro-frame-big {
+  font-size: 230%;
+  margin-bottom: 0%;
+}
+
+#intro-frame-small {
+  font-size: 165%;
+  margin-top: 1.5%;
+}

@@ -1,0 +1,13 @@
+.HandsHoldingBannerMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HandsHoldingBannerMobile p {
+  font-size: 89%;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 9%;
+}
+
