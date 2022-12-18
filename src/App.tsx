@@ -4,6 +4,7 @@ import IntroFrame from "./IntroFrame";
 import TornStickyNote from "./TornStickyNote";
 import HandsHoldingBanner from "./HandsHoldingBanner";
 import LandingPageMobile from "./mobile/LandingPageMobile";
+import IntroVideo from "./IntroVideo";
 
 function App() {
   const DesktopComponent = () => {
@@ -15,6 +16,7 @@ function App() {
           <TornStickyNote position="right" />
         </div>
         <HandsHoldingBanner />
+        <IntroVideo />
       </div>
     );
   };

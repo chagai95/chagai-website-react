@@ -2,6 +2,7 @@ import "./LandingPageMobile.css";
 import IntroFrameMobile from "./IntroFrameMobile";
 import TornStickyNoteMobile from "./TornStickyNoteMobile";
 import HandsHoldingBannerMobile from "./HandsHoldingBannerMobile";
+import IntroVideoMobile from "./IntroVideoMobile";
 
 function LandingPageMobile() {
   return (
@@ -12,6 +13,7 @@ function LandingPageMobile() {
         <TornStickyNoteMobile position="right" />
       </div>
       <HandsHoldingBannerMobile />
+      <IntroVideoMobile />
     </div>
   );
 }
