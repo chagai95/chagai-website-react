@@ -5,11 +5,12 @@ import TornStickyNote from "./TornStickyNote";
 import HandsHoldingBanner from "./HandsHoldingBanner";
 import LandingPageMobile from "./mobile/LandingPageMobile";
 import IntroVideo from "./IntroVideo";
+import StickyNote from "./StickyNote";
 
 function App() {
   const DesktopComponent = () => {
     return (
-      <div>
+      <div className="DesktopComponent">
         <IntroFrame />
         <div className="TornStickyNotes">
           <TornStickyNote position="left" />
@@ -17,6 +18,11 @@ function App() {
         </div>
         <HandsHoldingBanner />
         <IntroVideo />
+        <div className="StickyNotes">
+          <StickyNote number="1" />
+          <StickyNote number="2" />
+          <StickyNote number="3" />
+        </div>
       </div>
     );
   };

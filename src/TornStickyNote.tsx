@@ -1,4 +1,3 @@
-import React from "react";
 import "./TornStickyNote.css";
 import { ReactComponent as TornStickyNoteLeftSideSVG } from "./images/torn-sticky-note-left-side.svg";
 import { ReactComponent as TornStickyNoteRightSideSVG } from "./images/torn-sticky-note-right-side.svg";
