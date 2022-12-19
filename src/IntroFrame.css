@@ -5,11 +5,11 @@
   margin-top: 20%
 }
 
-#intro-frame-big {
+.IntroFrame #intro-frame-big {
   font-size: 200%;
   margin-bottom: 2%;
 }
 
-#intro-frame-small {
-  font-size: 13%;
+.IntroFrame #intro-frame-small {
+  font-size: 150%;
 }

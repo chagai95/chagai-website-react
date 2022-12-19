@@ -4,8 +4,19 @@ import TornStickyNoteMobile from "./TornStickyNoteMobile";
 import StickyNoteMobile from "./StickyNoteMobile";
 import HandsHoldingBannerMobile from "./HandsHoldingBannerMobile";
 import IntroVideoMobile from "./IntroVideoMobile";
+import VideoCallMobile from "./VideoCallMobile";
+import { useEffect } from "react";
+import { sendMessage } from "../utils";
+
+let didInit = false;
 
 function LandingPageMobile() {
+  useEffect(() => {
+    if (!didInit) {
+      didInit = true;
+      sendMessage("Someone went to mobile");
+    }
+  }, []);
   return (
     <div className="LandingPageMobile">
       <IntroFrameMobile />
@@ -20,6 +31,7 @@ function LandingPageMobile() {
         <StickyNoteMobile number="2" />
         <StickyNoteMobile number="3" />
       </div>
+      <VideoCallMobile />
     </div>
   );
 }

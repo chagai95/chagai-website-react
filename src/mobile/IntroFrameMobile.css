@@ -5,12 +5,12 @@
   margin-top: 14%
 }
 
-#intro-frame-big {
+.IntroFrameMobile #intro-frame-big {
   font-size: 230%;
   margin-bottom: 0%;
 }
 
-#intro-frame-small {
+.IntroFrameMobile #intro-frame-small {
   font-size: 165%;
   margin-top: 1.5%;
 }
