@@ -7,6 +7,7 @@ import IntroVideoMobile from "./IntroVideoMobile";
 import VideoCallMobile from "./VideoCallMobile";
 import { useEffect } from "react";
 import { sendMessage } from "../utils";
+import ChatBubbleMobile from "./ChatBubbleMobile";
 
 let didInit = false;
 
@@ -32,6 +33,11 @@ function LandingPageMobile() {
         <StickyNoteMobile number="3" />
       </div>
       <VideoCallMobile />
+      <div className="ChatBubblesMobile">
+        <ChatBubbleMobile number="1" />
+        <ChatBubbleMobile number="2" />
+        <ChatBubbleMobile number="3" />
+      </div>
     </div>
   );
 }

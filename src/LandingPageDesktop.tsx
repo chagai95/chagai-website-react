@@ -6,7 +6,7 @@ import IntroVideo from "./IntroVideo";
 import StickyNote from "./StickyNote";
 import VideoCall from "./VideoCall";
 import { useEffect } from "react";
-import { sendMessage } from "./utils";
+import ChatBubble from "./ChatBubble";
 
 let didInit = false;
 
@@ -33,6 +33,11 @@ function LandingPageDesktop() {
         <StickyNote number="3" />
       </div>
       <VideoCall />
+      <div className="ChatBubbles">
+        <ChatBubble number="1" />
+        <ChatBubble number="2" />
+        <ChatBubble number="3" />
+      </div>
     </div>
   );
 }
