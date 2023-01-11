@@ -1,8 +1,9 @@
-import "./TornStickyNote.css";
+import "./TornStickyNoteMobile.css";
 import { ReactComponent as TornStickyNoteLeftSideSVG } from "./images/torn-sticky-note-left-side.svg";
 import { ReactComponent as TornStickyNoteRightSideSVG } from "./images/torn-sticky-note-right-side.svg";
 
-function TornStickyNote(props: { position: string; }) {
+
+function TornStickyNoteMobile(props: { position: string; }) {
   return (
     <div >
       { props.position === "left" && <TornStickyNoteLeftSideSVG /> }
@@ -11,4 +12,4 @@ function TornStickyNote(props: { position: string; }) {
   );
 }
 
-export default TornStickyNote;
+export default TornStickyNoteMobile;

@@ -1,6 +1,14 @@
-.TornStickyNote {
-  width: 10%;
-  height: 85px;
-  background-image: url("./images/torn-sticky-note.svg");
-  background-repeat: no-repeat;
+#torn-sticky-note-left-side {
+    font-size: 78%;
+    margin-left: 15%;
+    margin-right: 14%;
+    margin-top: 13%;
+    position: fixed;
+}
+
+#torn-sticky-note-right-side {
+    font-size: 75%;
+    margin-left: 15%;
+    margin-right: 14%;
+    margin-top: 13%;
 }

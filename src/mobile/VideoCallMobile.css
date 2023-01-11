@@ -1,0 +1,12 @@
+.VideoCallMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.VideoCallMobile #iFrameJitsi {
+  height: 30%;
+  width: 200px;
+  border: 0px;
+}

@@ -1,0 +1,19 @@
+.LandingPageDesktop {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.TornStickyNotes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  justify-content: space-between;
+  align-items: center;
+}
+.ChatBubbles {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  justify-content: space-around;
+  align-items: center;
+}

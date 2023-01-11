@@ -1,0 +1,26 @@
+.LandingPageMobile {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.StickyNotes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  justify-content: space-around;
+  align-items: center;
+}
+.TornStickyNotesMobile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ChatBubblesMobile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  justify-content: space-around;
+  align-items: center;
+}
