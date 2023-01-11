@@ -1,0 +1,25 @@
+.Person {
+  position: relative;
+  display: inline-block; /* <= shrinks container to image size */
+}
+
+.Person img { /* <= optional, for responsiveness */
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.Person svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Person svg:hover {
+  cursor: pointer;
+}
+
+#div-telegram-logo {
+  margin-left: 15%;
+  margin-top: 35%;
+}
