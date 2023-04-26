@@ -56,3 +56,7 @@ export async function ring() {
   const dataResponse = await response.json();
 
 }
+
+function openTelegram() {
+  window.open("https://t.me/chagai", '_blank')?.focus();
+}

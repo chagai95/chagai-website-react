@@ -39,8 +39,10 @@ function LandingPageDesktop() {
         <ChatBubble number="2" />
         <ChatBubble number="3" />
       </div>
-      <div>
+      <div className="Persons">
         <Person number="1" />
+        <Person number="2" />
+        <Person number="3" />
       </div>
     </div>
   );
