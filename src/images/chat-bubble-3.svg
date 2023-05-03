@@ -15,8 +15,11 @@
 
 
     <foreignObject x="0" y="0" width="231" height="144">
+        <p id="chat-bubble-text-3-bold" xmlns="http://www.w3.org/1999/xhtml">
+            Remember
+        </p>
         <p id="chat-bubble-text-3" xmlns="http://www.w3.org/1999/xhtml">
-            You can pick WhatsApp, I understand...
+            Facebook?
         </p>
     </foreignObject>
 </svg>

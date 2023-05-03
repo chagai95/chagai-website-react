@@ -34,7 +34,8 @@ function VideoCallMobile() {
                       %22tileview%22
                       %2C
                       %22videoquality%22
-                    %5D"
+                    %5D
+              #zoom=30"
       ></iframe>
     </div>
   );
