@@ -8,6 +8,18 @@ function VideoCallMobile() {
         id="iFrameJitsi"
         allow="camera; microphone; fullscreen; display-capture; autoplay"
         src="https://meet.jit.si/chagaitalkNow#config.disableDeepLinking=true
+                    &interfaceConfig.TOOLBAR_BUTTONS=
+                    %5B
+                      %22microphone%22
+                      %2C
+                      %22camera%22
+                      %2C
+                      %22download%22
+                      %2C
+                      %22tileview%22
+                      %2C
+                      %22etherpad%22
+                    %5D
                     &interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false
                     &interfaceConfig.DISABLE_JOIN_LEAVE_NOTIFICATIONS=true
                     &config.startWithVideoMuted=true
@@ -17,24 +29,6 @@ function VideoCallMobile() {
                     &config.enableClosePage=true
                     &config.enableNoisyMicDetection=false
                     &config.p2p.enabled=false
-                    &interfaceConfig.TOOLBAR_BUTTONS=
-                    %5B
-                      %22microphone%22
-                      %2C
-                      %22camera%22
-                      %2C
-                      %22desktop%22
-                      %2C
-                      %22fullscreen%22
-                      %2C
-                      %22profile%22
-                      %2C
-                      %22settings%22
-                      %2C
-                      %22tileview%22
-                      %2C
-                      %22videoquality%22
-                    %5D
               #zoom=30"
       ></iframe>
     </div>

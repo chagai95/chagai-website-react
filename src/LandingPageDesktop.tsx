@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { sendMessage } from "./utils";
 import ChatBubble from "./ChatBubble";
 import Person from "./Person";
+import InstantMessagingButton from "./InstantMessagingButton";
 
 let didInit = false;
 
@@ -43,6 +44,11 @@ function LandingPageDesktop() {
         <Person number="1" />
         <Person number="2" />
         <Person number="3" />
+      </div>
+      <div className="InstantMessagingButtons">
+        <InstantMessagingButton platform="WhatsApp" />
+        <InstantMessagingButton platform="Telegram" />
+        <InstantMessagingButton platform="Messenger" />
       </div>
     </div>
   );
