@@ -17,7 +17,7 @@ function LandingPageDesktop() {
   useEffect(() => {
     if (!didInit) {
       didInit = true;
-      // sendMessage("Someone went to desktop");
+      sendMessage("Someone went to desktop");
     }
   }, []);
   return (

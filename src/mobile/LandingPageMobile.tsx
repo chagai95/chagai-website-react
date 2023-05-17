@@ -16,7 +16,7 @@ function LandingPageMobile() {
   useEffect(() => {
     if (!didInit) {
       didInit = true;
-      //sendMessage("Someone went to mobile");
+      sendMessage("Someone went to mobile");
     }
   }, []);
   return (
