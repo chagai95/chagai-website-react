@@ -27,10 +27,8 @@ function LandingPageDesktop() {
         <TornStickyNote position="left" />
         <TornStickyNote position="right" />
       </div>
-      <HandsHoldingBanner />
       <IntroVideo />
       <div className="StickyNotes">
-        <StickyNote number="1" />
         <StickyNote number="2" />
         <StickyNote number="3" />
       </div>

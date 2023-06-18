@@ -7,7 +7,7 @@ function VideoCallMobile() {
         title="Video call"
         id="iFrameJitsi"
         allow="camera; microphone; fullscreen; display-capture; autoplay"
-        src="https://meet.jit.si/chagaitalkNow#config.disableDeepLinking=true
+        src="https://allo.bim.land//chagaiTalkNow#config.disableDeepLinking=true
                     &interfaceConfig.TOOLBAR_BUTTONS=
                     %5B
                       %22microphone%22

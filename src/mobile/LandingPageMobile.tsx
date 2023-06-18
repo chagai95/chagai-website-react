@@ -26,7 +26,6 @@ function LandingPageMobile() {
         <TornStickyNoteMobile position="left" />
         <TornStickyNoteMobile position="right" />
       </div>
-      <HandsHoldingBannerMobile />
       <IntroVideoMobile />
       <div className="StickyNotes">
         <StickyNoteMobile number="2" />
